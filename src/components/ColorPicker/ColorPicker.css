@@ -1,0 +1,9 @@
+.ColorPicker {
+  position: absolute;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+}
+.ColorPicker__title {
+  text-align: center;
+}

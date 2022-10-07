@@ -1,0 +1,30 @@
+.Counter {
+  width: 400px;
+  padding: 50px;
+  margin: 50px;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
+
+.Counter__value {
+  color: black;
+}
+
+.Counter__controls {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background: blueviolet;
+  color: aliceblue;
+  box-shadow: 10px 5px 5px gold;
+  cursor: pointer;
+}
+.button:focus {
+  background-color: aqua;
+}
+.button:hover {
+  background-color: wheat;
+  color: red;
+}
